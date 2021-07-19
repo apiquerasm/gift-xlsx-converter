@@ -6,6 +6,6 @@ You need to install some packages using `pip` from pypi.org: `pip install pygift
 
 ## Usage
 ```
-$ python3 gift-to-xsls.py -f questions-file.txt
+$ python3 gift-to-xslx.py -f questions-file.txt
 ```
 It will generate a new `questions-file.txt.xslx` that can be directly imported into a Kahoot Quiz.
