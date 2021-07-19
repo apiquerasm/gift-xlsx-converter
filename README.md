@@ -1,9 +1,9 @@
 # GIFT Moodle to XLSX Kahoot converter
-GIFT Moodle to XLSX Kahoot converter. This script is useful in order to migrate Moodle GIFT questions to Kahoot questions.
+This script is useful in order to migrate Moodle GIFT questions to a [Kahoot Quiz](https://create.kahoot.it/)
 
 ## Installation
-Install some prerequisites:
-You can install it like a package using `pip` from pypi.org: `pip install pygiftparserrgmf`
+You need to install some packages using `pip` from pypi.org: `pip install pygiftparserrgmf` and `pip install xlsxwriter`
 
 ## Usage
-
+`python gift-to-xsls.py -f questions-file.txt`
+It will generate a new `questions-file.txt.xslx` that can be directly imported into a Kahoot Quiz.
